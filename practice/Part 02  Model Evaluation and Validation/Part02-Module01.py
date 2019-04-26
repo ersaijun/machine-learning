@@ -8,7 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.svm  import SVC
 from sklearn.model_selection import train_test_split  # 分离函数
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score  # 检验准确度
 import pysnooper
 
 @pysnooper.snoop( )
