@@ -21,7 +21,10 @@ y = data[:,2]
 # TODO: Create the model and assign it to the variable model.
 # Find the right parameters for this model to achieve 100% accuracy on the dataset.
 model = SVC(kernel='rbf',gamma=30)
-
+# C: The C parameter.
+# kernel: The kernel. The most common ones are 'linear', 'poly', and 'rbf'.
+# degree: If the kernel is polynomial, this is the maximum degree of the monomials in the kernel.
+# gamma : If the kernel is rbf, this is the gamma parameter.
 # TODO: Fit the model.
 model.fit(X,y)
 # TODO: Make predictions. Store them in the variable y_pred.
